@@ -1,3 +1,3 @@
 KEVIN FABIAN CHEPE
 
-Ejercicio de la orbita de un planeta que originalmente planteado en Python y convertido a Cython
+Programa en Python para calcular la orbita de un planeta, que posteriormente se acomoda para adaptarlo a Cython
