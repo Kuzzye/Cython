@@ -71,3 +71,7 @@ Este fichero automatiza el proceso de compilación del proyecto.
 * Se logro demostrar que para este caso Cython es casi 18 veces mas rápido que Python.
 
 * En las ejecuciones individuales de de Cython se puede apreciar que hubo variaciones muy pronunciadas debido a que la maquina estaba ejecutando otras aplicaciones en el momento de la ejecución principal.
+
+**Referencias**
+
+* M. Huls. "Cython for absolute beginners: 30x faster code in two simple steps". Medium. https://towardsdatascience.com/cython-for-absolute-beginners-30x-faster-code-in-two-simple-steps-bbb6c10d06ad (accedido el 9 de noviembre de 2022).
