@@ -17,16 +17,20 @@ width="200" height="200">
 </FONT>
 </p>
 
-#**Resumen**
+**Resumen**
+
 La siguiente actividad tiene como objetivo expandir y aclarar los conceptos de Cython, mediante el ejercicio de la orbita de un planeta, esto para comprobar que cython puede presentar mejores significativas con respecto a python.
 
-#**Introducción**
+**Introducción**
+
 Cython es un lenguaje de programación que combina Python con el sistema de datos de C, los mismos métodos que se ejecutan en Python pero con definiciones de C.
 
-#**Objetivo**
+**Objetivo**
+
 Analizar los resultados que se obtuvieron de la practica mediante graficas dentro de un cuaderno en Google Colaboratory para poder ver la mejora que representa Cython frente a Python.
 
-#**Ejecución**
+**Ejecución**
+
 Se tendrán en cuenta  5 ficheros los cuales son los siguientes
 
 **py_planet_orbit.py**
@@ -44,3 +48,26 @@ Este fichero es la ejecución de los dos versiones del programa, la de Python y 
 **Makefile**
 Este fichero automatiza el proceso de compilación del proyecto.
 
+**Resultados**
+
+* Comparativa de Rendimiento individual por lenguaje
+
+![imagen](https://user-images.githubusercontent.com/79543099/200901496-964c0462-76e8-4e15-9e49-15cda5058135.png)
+
+* Comprativa de rendimiento de Python vs Cython mediantes un grafico de barras para ver el rendimiento que hubo en cada iteracción de la ejecución.
+
+![imagen](https://user-images.githubusercontent.com/79543099/200901678-7f4fc7d8-f9fa-4b3e-b7a6-e73592cafd8e.png)
+
+* Comprativa de rendimiento de Python vs Cython mediantes un grafico de lineas para ver el rendimiento que significativo que demuestra Cython
+
+![imagen](https://user-images.githubusercontent.com/79543099/200901782-fa6aef47-09ca-4dfa-bf79-718572e4ac4d.png)
+
+**Conclusiones**
+
+* De Cython se puede concluir que es un lenguaje bastante eficiente que combina lo mejor de dos lenguajes como lo son Python y Cython, es la traducción directa de un código de Python.
+
+* Cython es mucho mas rápido al combinar lenguajes de alto nivel como lo es Python como su sintaxis simple y fácil de trabajar y de bajo nivel como lo es C con sus definiciones que proporcionan mayor rendimiento.
+
+* Se logro demostrar que para este caso Cython es casi 18 veces mas rápido que Python.
+
+* En las ejecuciones individuales de de Cython se puede apreciar que hubo variaciones muy pronunciadas debido a que la maquina estaba ejecutando otras aplicaciones en el momento de la ejecución principal.
