@@ -30,6 +30,7 @@ Cython es un lenguaje de programación que combina Python con el sistema de dato
 Analizar los resultados que se obtuvieron de la practica mediante graficas dentro de un cuaderno en Google Colaboratory para poder ver la mejora que representa Cython frente a Python.
 
 **Ejecución**
+
 Para cada culquiera de los 3 ejericios, se tendrán en cuenta 5 ficheros los cuales son los siguientes:
 
 **(fichero).py**
@@ -49,29 +50,55 @@ Este fichero automatiza el proceso de compilación del proyecto.
 
 **Resultados**
 
-* Comparativa de Rendimiento individual por lenguaje
+>>Ejercicio 1
+>>- Algoritmo Factorial
+>>* Comparativa de Rendimiento individual por lenguaje
+>>![imagen](https://user-images.githubusercontent.com/79543099/202951563-84c5f72a-4f02-49fc-8153-4343a88f9705.png)
+>>* Comprativa de rendimiento de Python vs Cython mediantes un grafico de barras para ver el rendimiento que hubo en cada iteracción de la ejecución.
+>>![imagen](https://user-images.githubusercontent.com/79543099/202951645-bbab069a-1b99-437a-b9c4-bce023adbffd.png)
+>>* Comprativa de rendimiento de Python vs Cython mediantes un grafico de lineas para ver el rendimiento que significativo que demuestra Cython
+>>![imagen](https://user-images.githubusercontent.com/79543099/202951694-0378716c-e48e-4d74-871e-f36472325c87.png)
 
-![imagen](https://user-images.githubusercontent.com/79543099/200901496-964c0462-76e8-4e15-9e49-15cda5058135.png)
 
-* Comprativa de rendimiento de Python vs Cython mediantes un grafico de barras para ver el rendimiento que hubo en cada iteracción de la ejecución.
+>>Ejercicio 2
+>>- Algoritmo Números primos
+>>* Comparativa de Rendimiento individual por lenguaje
+>>![imagen](https://user-images.githubusercontent.com/79543099/202952036-79d2087a-1b71-47c7-aadc-d4668b5116db.png)
+>>* Comprativa de rendimiento de Python vs Cython mediantes un grafico de barras para ver el rendimiento que hubo en cada iteracción de la ejecución.
+>>![imagen](https://user-images.githubusercontent.com/79543099/202952095-808a94e7-1253-4b5b-aa0f-b06e19983bd6.png)
+>>* Comprativa de rendimiento de Python vs Cython mediantes un grafico de lineas para ver el rendimiento que significativo que demuestra Cython
+>>![imagen](https://user-images.githubusercontent.com/79543099/202952122-d58a744e-42ce-4747-9254-e3363f7fc04e.png)
 
-![imagen](https://user-images.githubusercontent.com/79543099/200901678-7f4fc7d8-f9fa-4b3e-b7a6-e73592cafd8e.png)
 
-* Comprativa de rendimiento de Python vs Cython mediantes un grafico de lineas para ver el rendimiento que significativo que demuestra Cython
+>>Ejercicio 3
+>>- Algoritmo Sumatoria de multiplos
+>>* Comparativa de Rendimiento individual por lenguaje
+>>![imagen](https://user-images.githubusercontent.com/79543099/202952199-c2201a77-3d0e-45e5-9317-f1d4a1d33b13.png)
+>>* Comprativa de rendimiento de Python vs Cython mediantes un grafico de barras para ver el rendimiento que hubo en cada iteracción de la ejecución.
+>>![imagen](https://user-images.githubusercontent.com/79543099/202952228-37ea18a9-261e-47ca-98b2-7b533e3a223f.png)
+>>* Comprativa de rendimiento de Python vs Cython mediantes un grafico de lineas para ver el rendimiento que significativo que demuestra Cython
+>>![imagen](https://user-images.githubusercontent.com/79543099/202952260-020c290b-7ddf-43e9-a23d-1f06f2620ae0.png)
 
-![imagen](https://user-images.githubusercontent.com/79543099/200901782-fa6aef47-09ca-4dfa-bf79-718572e4ac4d.png)
+**Analisis**
+
+* En el algoritmo de Factorial se evidencia que cython muchos mas rápido ya que es un ejercicio simple que depende de una iteración y cython resuelve todos los problemas de python al momento de definir los tipos de datos y de esta manera se obtiene un rendimiento de casi 500 veces mas rápido la ejecución de cython con números grandes.
+
+* Para el segundo y tercer ejercicio fue aproximadamente 10 veces mas rápido con cython
+
+* Los ejercicios realizados a primera vista pueden parecer algo sencillos, pero son muy prácticos ya que en estos se realizan diferentes operaciones, lo cual hace que se pueda determinar de una mejor manera que tanta es la diferencia entre python y cython
 
 **Conclusiones**
 
-* De Cython se puede concluir que es un lenguaje bastante eficiente que combina lo mejor de dos lenguajes como lo son Python y Cython, es la traducción directa de un código de Python.
+* Como se puede observar en las graficas cuando se ejecuta el programa por medio de python se tiene un tiempo mucho mayor. Los resultados de Cython se reduce en casi un 90% el tiempo. Esto se da ya que al mezclar código de Python y C, Python se puede ajustar a la velocidad de C ajustando tan solo algunos tipos de declaraciones y realizando algunas modificaciones en el código
 
 * Cython es mucho mas rápido al combinar lenguajes de alto nivel como lo es Python como su sintaxis simple y fácil de trabajar y de bajo nivel como lo es C con sus definiciones que proporcionan mayor rendimiento.
 
-* Se logro demostrar que para este caso Cython es casi 18 veces mas rápido que Python.
-
-* En las ejecuciones individuales de de Cython se puede apreciar que hubo variaciones muy pronunciadas debido a que la maquina estaba ejecutando otras aplicaciones en el momento de la ejecución principal.
+* En las ejecuciones individuales de de Cython se puede apreciar lo estable que fue ya que la maquina solo estaba ejecutando el programa en ese momento y se puede evidenciar uno que otro pico de perdida de rendimiento que se puede identificar como un cuello de botella. (Se recomienda el no uso de la maquina mientras ejecuta los programas).
 
 **Referencias**
 
-* M. Huls. "Cython for absolute beginners: 30x faster code in two simple steps". Medium. https://towardsdatascience.com/cython-for-absolute-beginners-30x-faster-code-in-two-simple-steps-bbb6c10d06ad (accedido el 9 de noviembre de 2022).
+* M. Huls. "Cython for absolute beginners: 30x faster code in two simple steps". Medium. https://towardsdatascience.com/cython-for-absolute-beginners-30x-faster-code-in-two-simple-steps-bbb6c10d06ad 
 
+* Qué es la función factorial y cómo usarla - Paso a paso. (s. f.). Factorial RH - El Software de Recursos Humanos todo en uno. https://factorial.mx/numero-funcion-factorial
+
+* Cython: C-Extensions for Python. (s. f.). Cython: C-Extensions for Python. https://cython.org/
